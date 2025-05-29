@@ -1,0 +1,389 @@
+/*Responsive*/
+
+@media (max-width: 1200px) {
+    .team-doctor-img {
+        width: 230px;
+        height: 230px;
+    }
+
+    .emily-grid-item .share .share-icon {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .hero-content h1,
+    .hero-about,
+    .health-title {
+        font-size: 52px;
+    }
+
+    .about-text h2,
+    .section-title,
+    .team-heading h2,
+    .faq-form h2,
+    .price-head {
+        font-size: 42px;
+    }
+
+    .right-contact {
+        display: none;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .stats {
+        left: 50%;
+        bottom: 20px;
+        transform: translateX(-50%);
+    }
+
+    .doctor-img {
+        height: 500px;
+        width: 50vw;
+    }
+
+    .custom-feature-box {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .left-panel {
+        margin: 0;
+    }
+
+    .right-panel {
+        display: none;
+    }
+
+    .coming-soon-title {
+        font-size: 100px;
+    }
+
+    .article-content-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .article-image {
+        float: none;
+        margin: 0;
+    }
+
+    .emily-social-icons a {
+        font-size: 24px;
+    }
+
+    .bs4 {
+        display: none !important;
+    }
+
+    .custom-feature-box{
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .hero-content h1,
+    .hero-about,
+    .health-title {
+        font-size: 44px;
+    }
+
+    .about-text h2,
+    .section-title,
+    .team-heading h2,
+    .faq-form h2,
+    .medic-blogs-title,
+    .price-head {
+        font-size: 36px;
+    }
+
+    .nav-links,
+    .right-contact {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        margin-left: 80px;
+    }
+
+    .nav-links.mobile-visible {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 50vw;
+        background-color: white;
+        padding: 30px 20px;
+        z-index: 999;
+        box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-links.mobile-visible ul {
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 0;
+    }
+
+    .nav-links.mobile-visible .dropdown-menu {
+        position: static;
+        box-shadow: none;
+        display: block;
+    }
+
+    .doctor-img {
+        height: 500px;
+        width: 80vw;
+    }
+
+    .about-text p {
+        font-size: 16px;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .appointment-section {
+        flex-direction: column;
+    }
+
+    .left-panel {
+        flex: 1 1 100%;
+        padding: 30px 20px;
+    }
+
+    .left-panel h2 {
+        font-size: 24px;
+    }
+
+    .appointment-container {
+        flex-direction: column;
+    }
+
+    .appointment-image {
+        border-radius: 20px 20px 0 0;
+        min-height: 300px;
+    }
+
+    .appointment-form {
+        padding: 30px 20px;
+    }
+
+    .faq-section {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .helpline-ad h1,
+    .helpline-ad .contact-number {
+        font-size: 44px;
+    }
+
+    .hero-about {
+        height: 30vh;
+    }
+
+    .blur-right {
+        display: none;
+    }
+
+    .b1,
+    .b2 {
+        display: block;
+    }
+
+    .countdown-box {
+        width: 80px;
+        padding: 15px 10px;
+    }
+
+    .bg-blur-left1,
+    .bg-blur-right1 {
+        display: none;
+    }
+
+    .article-image {
+        float: none;
+        display: block;
+        margin: 1rem auto;
+    }
+
+    .article-title {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width: 575px) {
+
+    .hero-content h1,
+    .hero-about,
+    .health-title {
+        font-size: 36px;
+    }
+
+    .about-text h2,
+    .section-title,
+    .team-heading h2,
+    .faq-form h2,
+    .medic-blogs-title,
+    .hero-about,
+    .price-head {
+        font-size: 32px;
+    }
+
+    .custom-icon-circle {
+        left: -20px;
+        top: 50%;
+    }
+
+    .faq-item {
+        font-size: 16px;
+    }
+
+    .custom-carousel-btn {
+        display: none !important;
+    }
+
+    .footer2 h6 {
+        font-size: 16px;
+    }
+
+    .footer2-icons {
+        font-size: 16px;
+    }
+
+    .appointment-section {
+        padding-top: 40px;
+    }
+
+    .error-code {
+        font-size: 5rem;
+    }
+
+    .error-message {
+        font-size: 1.2rem;
+    }
+
+    .bg-blur-left {
+        display: none;
+    }
+
+    .team-doctor-img {
+        width: 280px;
+        height: 280px;
+    }
+
+    .coming-soon-title {
+        font-size: 80px;
+    }
+
+    .blog-detail-content,
+    .custom-quote {
+        font-size: 16px;
+    }
+
+    .emily-grid-item h1 {
+        font-size: 32px;
+    }
+
+    .emily-grid-item .subname {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 492px) {
+    .button1 {
+        font-size: 14px;
+    }
+
+    .card-actions {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .appointment-form {
+        margin: 0;
+    }
+
+    .helpline-ad h1,
+    .helpline-ad .contact-number {
+        font-size: 32px;
+    }
+
+    .footer2-icons {
+        gap: 20px;
+    }
+
+    .health-icon {
+        background-color: transparent;
+    }
+
+    .health-icon img {
+        height: auto;
+        width: auto;
+    }
+
+    .coming-soon-title {
+        font-size: 50px;
+    }
+
+    .emily-card h2 {
+        font-size: 24px;
+    }
+
+    .emily-card li {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 375px) {
+    .footer2-icons {
+        display: none;
+    }
+
+    .hero-about {
+        height: 20vh;
+    }
+
+    .blog-meta-card {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .emily-grid-item .share p {
+        font-size: 16px;
+    }
+
+    .emily-grid-item .share .share-icon i {
+        margin-left: 10px;
+    }
+
+    .emily-grid-item h1 {
+        font-size: 26px;
+    }
+
+    .emily-grid-item .subname {
+        font-size: 18px;
+    }
+
+    .amily-advantages li{
+        font-size: 16px;
+    }
+}
